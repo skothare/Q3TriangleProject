@@ -55,5 +55,6 @@ public class TriangleTest{
 		Triangle t5 = new Triangle(3, 4, 5);
 		assertTrue(t5.getPerimeter() == 12);
 		Triangle t6 = new Triangle(2, 3, 4);
+		assertTrue(t6.getPerimeter() == 9);
 	}
 }
