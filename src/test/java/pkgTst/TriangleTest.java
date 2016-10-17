@@ -23,7 +23,7 @@ public class TriangleTest{
 	@Test(expected = InvalidTriangleException.class)
 	public final void testInvalidTriangle1() throws InvalidTriangleException{
 		Triangle t1 = new Triangle(4, 0, 5);
-		fail("Expected a InvalidTriangleException to be thrown");
+		fail("Expected an InvalidTriangleException to be thrown");
 	}
 	/**
 	 * Tests for an imaginary triangle, that is, when the sum of all sides is 0.
@@ -32,7 +32,7 @@ public class TriangleTest{
 	@Test(expected = InvalidTriangleException.class)
 	public final void testInvalidTriangle2() throws InvalidTriangleException{
 		Triangle t2 = new Triangle(0 , 0 , 0);
-		fail("Expected a InvalidTriangleException to be thrown");
+		fail("Expected an InvalidTriangleException to be thrown");
 	}
 	
 	/**
